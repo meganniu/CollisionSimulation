@@ -1,0 +1,15 @@
+using System;
+namespace CollisionSimulatio
+{
+    class Main
+    {
+        static void Main() 
+        {
+            Ball b1 = new Ball (-100,0,4.0,0,12,0,4);
+            Ball b2 = new Ball (100,0,0,0,0,0,4);
+            double sx = Math.Abs(b1.sx - b2.sx);
+            double sy = Math.Abs(b1.sy - b2.sy);
+            //while (sx )
+        }
+    }
+}
